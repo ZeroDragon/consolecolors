@@ -14,7 +14,7 @@
     "Node",
     "console.log",
     "colors",
-    "colorize"
+    "colorize",
     "styles"
   ],
   "author": "Zero Dragon",
