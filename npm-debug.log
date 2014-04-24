@@ -5,19 +5,126 @@
 2 info using npm@1.4.3
 3 info using node@v0.10.26
 4 verbose publish [ '.' ]
-5 error Failed to parse json
-5 error Unexpected string
-6 error File: /Users/zrdrgn/Sites/ConsoleColors/package.json
-7 error Failed to parse package.json data.
-7 error package.json must be actual JSON, not just JavaScript.
-7 error
-7 error This is not a bug in npm.
-7 error Tell the package author to fix their package.json file. JSON.parse
-8 error System Darwin 13.1.0
-9 error command "/usr/local/Cellar/node/0.10.26/bin/node" "/usr/local/bin/npm" "publish"
-10 error cwd /Users/zrdrgn/Sites/ConsoleColors
-11 error node -v v0.10.26
-12 error npm -v 1.4.3
-13 error file /Users/zrdrgn/Sites/ConsoleColors/package.json
-14 error code EJSONPARSE
-15 verbose exit [ 1, true ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/zrdrgn/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/4n/yj9dfhhn0djfl2bgnyp63grc0000gn/T/npm-4577-SynyphJV/1398362112212-0.04530105856247246/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/4n/yj9dfhhn0djfl2bgnyp63grc0000gn/T/npm-4577-SynyphJV/1398362112212-0.04530105856247246/tmp.tgz
+12 verbose folder .
+13 info prepublish ConsoleColors@0.0.1
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/zrdrgn/.npm/1f1177db-tar.lock
+16 silly lockFile d020407e-2212-0-04530105856247246-tmp-tgz tar:///var/folders/4n/yj9dfhhn0djfl2bgnyp63grc0000gn/T/npm-4577-SynyphJV/1398362112212-0.04530105856247246/tmp.tgz
+17 verbose lock tar:///var/folders/4n/yj9dfhhn0djfl2bgnyp63grc0000gn/T/npm-4577-SynyphJV/1398362112212-0.04530105856247246/tmp.tgz /Users/zrdrgn/.npm/d020407e-2212-0-04530105856247246-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile d020407e-2212-0-04530105856247246-tmp-tgz tar:///var/folders/4n/yj9dfhhn0djfl2bgnyp63grc0000gn/T/npm-4577-SynyphJV/1398362112212-0.04530105856247246/tmp.tgz
+21 silly lockFile d020407e-2212-0-04530105856247246-tmp-tgz tar:///var/folders/4n/yj9dfhhn0djfl2bgnyp63grc0000gn/T/npm-4577-SynyphJV/1398362112212-0.04530105856247246/tmp.tgz
+22 verbose tar unpack /var/folders/4n/yj9dfhhn0djfl2bgnyp63grc0000gn/T/npm-4577-SynyphJV/1398362112212-0.04530105856247246/tmp.tgz
+23 silly lockFile efd2999a-2212-0-04530105856247246-package tar:///var/folders/4n/yj9dfhhn0djfl2bgnyp63grc0000gn/T/npm-4577-SynyphJV/1398362112212-0.04530105856247246/package
+24 verbose lock tar:///var/folders/4n/yj9dfhhn0djfl2bgnyp63grc0000gn/T/npm-4577-SynyphJV/1398362112212-0.04530105856247246/package /Users/zrdrgn/.npm/efd2999a-2212-0-04530105856247246-package.lock
+25 silly lockFile d020407e-2212-0-04530105856247246-tmp-tgz tar:///var/folders/4n/yj9dfhhn0djfl2bgnyp63grc0000gn/T/npm-4577-SynyphJV/1398362112212-0.04530105856247246/tmp.tgz
+26 verbose lock tar:///var/folders/4n/yj9dfhhn0djfl2bgnyp63grc0000gn/T/npm-4577-SynyphJV/1398362112212-0.04530105856247246/tmp.tgz /Users/zrdrgn/.npm/d020407e-2212-0-04530105856247246-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry README.md
+30 silly gunzTarPerm extractEntry LICENSE
+31 silly gunzTarPerm extractEntry consolecolors.js
+32 silly gunzTarPerm extractEntry test.js
+33 silly lockFile efd2999a-2212-0-04530105856247246-package tar:///var/folders/4n/yj9dfhhn0djfl2bgnyp63grc0000gn/T/npm-4577-SynyphJV/1398362112212-0.04530105856247246/package
+34 silly lockFile efd2999a-2212-0-04530105856247246-package tar:///var/folders/4n/yj9dfhhn0djfl2bgnyp63grc0000gn/T/npm-4577-SynyphJV/1398362112212-0.04530105856247246/package
+35 silly lockFile d020407e-2212-0-04530105856247246-tmp-tgz tar:///var/folders/4n/yj9dfhhn0djfl2bgnyp63grc0000gn/T/npm-4577-SynyphJV/1398362112212-0.04530105856247246/tmp.tgz
+36 silly lockFile d020407e-2212-0-04530105856247246-tmp-tgz tar:///var/folders/4n/yj9dfhhn0djfl2bgnyp63grc0000gn/T/npm-4577-SynyphJV/1398362112212-0.04530105856247246/tmp.tgz
+37 verbose tar pack [ '/Users/zrdrgn/.npm/ConsoleColors/0.0.1/package.tgz',
+37 verbose tar pack   '/var/folders/4n/yj9dfhhn0djfl2bgnyp63grc0000gn/T/npm-4577-SynyphJV/1398362112212-0.04530105856247246/package' ]
+38 verbose tarball /Users/zrdrgn/.npm/ConsoleColors/0.0.1/package.tgz
+39 verbose folder /var/folders/4n/yj9dfhhn0djfl2bgnyp63grc0000gn/T/npm-4577-SynyphJV/1398362112212-0.04530105856247246/package
+40 silly lockFile efd2999a-2212-0-04530105856247246-package tar:///var/folders/4n/yj9dfhhn0djfl2bgnyp63grc0000gn/T/npm-4577-SynyphJV/1398362112212-0.04530105856247246/package
+41 verbose lock tar:///var/folders/4n/yj9dfhhn0djfl2bgnyp63grc0000gn/T/npm-4577-SynyphJV/1398362112212-0.04530105856247246/package /Users/zrdrgn/.npm/efd2999a-2212-0-04530105856247246-package.lock
+42 silly lockFile 6114ed0a--ConsoleColors-0-0-1-package-tgz tar:///Users/zrdrgn/.npm/ConsoleColors/0.0.1/package.tgz
+43 verbose lock tar:///Users/zrdrgn/.npm/ConsoleColors/0.0.1/package.tgz /Users/zrdrgn/.npm/6114ed0a--ConsoleColors-0-0-1-package-tgz.lock
+44 silly lockFile efd2999a-2212-0-04530105856247246-package tar:///var/folders/4n/yj9dfhhn0djfl2bgnyp63grc0000gn/T/npm-4577-SynyphJV/1398362112212-0.04530105856247246/package
+45 silly lockFile efd2999a-2212-0-04530105856247246-package tar:///var/folders/4n/yj9dfhhn0djfl2bgnyp63grc0000gn/T/npm-4577-SynyphJV/1398362112212-0.04530105856247246/package
+46 silly lockFile 6114ed0a--ConsoleColors-0-0-1-package-tgz tar:///Users/zrdrgn/.npm/ConsoleColors/0.0.1/package.tgz
+47 silly lockFile 6114ed0a--ConsoleColors-0-0-1-package-tgz tar:///Users/zrdrgn/.npm/ConsoleColors/0.0.1/package.tgz
+48 silly lockFile 0caf1720--npm-ConsoleColors-0-0-1-package /Users/zrdrgn/.npm/ConsoleColors/0.0.1/package
+49 verbose lock /Users/zrdrgn/.npm/ConsoleColors/0.0.1/package /Users/zrdrgn/.npm/0caf1720--npm-ConsoleColors-0-0-1-package.lock
+50 silly lockFile 0caf1720--npm-ConsoleColors-0-0-1-package /Users/zrdrgn/.npm/ConsoleColors/0.0.1/package
+51 silly lockFile 0caf1720--npm-ConsoleColors-0-0-1-package /Users/zrdrgn/.npm/ConsoleColors/0.0.1/package
+52 verbose tar unpack /Users/zrdrgn/.npm/ConsoleColors/0.0.1/package.tgz
+53 silly lockFile baa50bca--npm-ConsoleColors-0-0-1-package tar:///Users/zrdrgn/.npm/ConsoleColors/0.0.1/package
+54 verbose lock tar:///Users/zrdrgn/.npm/ConsoleColors/0.0.1/package /Users/zrdrgn/.npm/baa50bca--npm-ConsoleColors-0-0-1-package.lock
+55 silly lockFile 6114ed0a--ConsoleColors-0-0-1-package-tgz tar:///Users/zrdrgn/.npm/ConsoleColors/0.0.1/package.tgz
+56 verbose lock tar:///Users/zrdrgn/.npm/ConsoleColors/0.0.1/package.tgz /Users/zrdrgn/.npm/6114ed0a--ConsoleColors-0-0-1-package-tgz.lock
+57 silly gunzTarPerm modes [ '755', '644' ]
+58 silly gunzTarPerm extractEntry package.json
+59 silly gunzTarPerm extractEntry README.md
+60 silly gunzTarPerm extractEntry LICENSE
+61 silly gunzTarPerm extractEntry consolecolors.js
+62 silly gunzTarPerm extractEntry test.js
+63 silly lockFile baa50bca--npm-ConsoleColors-0-0-1-package tar:///Users/zrdrgn/.npm/ConsoleColors/0.0.1/package
+64 silly lockFile baa50bca--npm-ConsoleColors-0-0-1-package tar:///Users/zrdrgn/.npm/ConsoleColors/0.0.1/package
+65 silly lockFile 6114ed0a--ConsoleColors-0-0-1-package-tgz tar:///Users/zrdrgn/.npm/ConsoleColors/0.0.1/package.tgz
+66 silly lockFile 6114ed0a--ConsoleColors-0-0-1-package-tgz tar:///Users/zrdrgn/.npm/ConsoleColors/0.0.1/package.tgz
+67 verbose chmod /Users/zrdrgn/.npm/ConsoleColors/0.0.1/package.tgz 644
+68 verbose chown /Users/zrdrgn/.npm/ConsoleColors/0.0.1/package.tgz [ 501, 20 ]
+69 silly lockFile 3a52ce78- .
+70 silly lockFile 3a52ce78- .
+71 silly publish { name: 'ConsoleColors',
+71 silly publish   version: '0.0.1',
+71 silly publish   description: 'Console Colors it\'s a very small script (30 lines) that adds colors to the node console.log extending the string prototype.',
+71 silly publish   main: 'consolecolors.js',
+71 silly publish   scripts: { test: 'node test.js' },
+71 silly publish   repository:
+71 silly publish    { type: 'git',
+71 silly publish      url: 'git://github.com/ZeroDragon/consolecolors.git' },
+71 silly publish   keywords: [ 'Node', 'console.log', 'colors', 'colorize', 'styles' ],
+71 silly publish   author: { name: 'Zero Dragon' },
+71 silly publish   license: 'MIT',
+71 silly publish   bugs: { url: 'https://github.com/ZeroDragon/consolecolors/issues' },
+71 silly publish   homepage: 'https://github.com/ZeroDragon/consolecolors',
+71 silly publish   readme: 'Console Colors\n==============\n\nConsole Colors it\'s a very small script (30 lines) that adds colors to the node console.log extending the string prototype.  \nThis module is a reduced version of Marak\'s colors module. If you want more styles, themes and functions for your browser; go check that [here](https://github.com/Marak/colors.js).\n\n###Instalation\n    npm install consolecolors\n\n###Usage\n\n    require(\'consolecolors\');\n    console.log(\'foo\'.red) // Prints foo in red foreground\n    console.log(\'foo\'.red.underline) // Prints foo in red underlined\n\n###Styles supported:  \n- underline\n- inverse\n- white\n\n###Foreground colors:\n- white\n- grey\n- black\n- blue\n- cyan\n- green\n- magenta\n- red\n- yellow\n\n###Background colors:\n- whiteBG\n- blackBG\n- blueBG\n- cyanBG\n- greenBG\n- magentaBG\n- redBG\n- yellowBG\n    ',
+71 silly publish   readmeFilename: 'README.md',
+71 silly publish   _id: 'ConsoleColors@0.0.1',
+71 silly publish   dist: { shasum: '61c32f7d1dcad6461dee4f4aca9ef945c3114218' },
+71 silly publish   _from: '.' }
+72 verbose url raw ConsoleColors
+73 verbose url resolving [ 'https://registry.npmjs.org/', './ConsoleColors' ]
+74 verbose url resolved https://registry.npmjs.org/ConsoleColors
+75 info trying registry request attempt 1 at 12:55:12
+76 http PUT https://registry.npmjs.org/ConsoleColors
+77 http 403 https://registry.npmjs.org/ConsoleColors
+78 error publish Failed PUT 403
+79 error Error: forbidden New packages must have all-lowercase names: ConsoleColors
+79 error     at RegClient.<anonymous> (/usr/local/Cellar/node/0.10.26/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:237:14)
+79 error     at Request.self.callback (/usr/local/Cellar/node/0.10.26/lib/node_modules/npm/node_modules/request/request.js:123:22)
+79 error     at Request.EventEmitter.emit (events.js:98:17)
+79 error     at Request.<anonymous> (/usr/local/Cellar/node/0.10.26/lib/node_modules/npm/node_modules/request/request.js:893:14)
+79 error     at Request.EventEmitter.emit (events.js:117:20)
+79 error     at IncomingMessage.<anonymous> (/usr/local/Cellar/node/0.10.26/lib/node_modules/npm/node_modules/request/request.js:844:12)
+79 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+79 error     at _stream_readable.js:920:16
+79 error     at process._tickCallback (node.js:415:13)
+80 error If you need help, you may report this *entire* log,
+80 error including the npm and node versions, at:
+80 error     <http://github.com/npm/npm/issues>
+81 error System Darwin 13.1.0
+82 error command "/usr/local/Cellar/node/0.10.26/bin/node" "/usr/local/bin/npm" "publish"
+83 error cwd /Users/zrdrgn/Sites/ConsoleColors
+84 error node -v v0.10.26
+85 error npm -v 1.4.3
+86 verbose exit [ 1, true ]
