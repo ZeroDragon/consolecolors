@@ -1,7 +1,7 @@
 Console Colors
 ==============
 
-Console Colors it's a very small script (30 lines) that adds colors to the node console.log extending the string prototype.  
+Console Colors it's a very small script that adds colors to the node console.log extending the string and number prototype.  
 This module is a reduced version of Marak's colors module. If you want more styles, themes and functions for your browser; go check that [here](https://github.com/Marak/colors.js).
 
 ###Instalation
