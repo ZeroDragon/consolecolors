@@ -1,5 +1,5 @@
 //Requiring the library
-require('./consolecolors');
+require('../bin/consolecolors');
 
 //Test all the styles and colors
 [
@@ -28,5 +28,9 @@ require('./consolecolors');
 	'redBG',
 	'yellowBG'
 ].forEach(function(style,k){
-	console.log( ((k+1)+': ').green+style[style] );
+	console.log( 
+		('  '+(k+1)).slice(-3).green +
+		': '.green + style[style]
+	);
 });
+console.log();

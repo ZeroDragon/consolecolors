@@ -22,9 +22,14 @@ var estilizame = function(str,style){
 	};
 	if(style == 'getAll') return Object.keys(styles);
 	return styles[style][0] + str + styles[style][1];
-}
+};
 estilizame(false,'getAll').forEach(function(style){
-  Object.defineProperty(String.prototype, style, {
-	 	get: function(){return estilizame(this,style);}
+	Object.defineProperty(Number.prototype, style, {
+		configurable : true,
+		get: function(){return estilizame(this.toString(),style);}
+	});
+	Object.defineProperty(String.prototype, style, {
+		configurable : true,
+		get: function(){return estilizame(this,style);}
 	});
 });

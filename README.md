@@ -38,4 +38,9 @@ This module is a reduced version of Marak's colors module. If you want more styl
 - magentaBG
 - redBG
 - yellowBG
+
+###Changelog
+0.33.2b - Now the numbers also can be colored and styled!
+0.33.2a - A quick fix on the method to define the string prototype
+
     

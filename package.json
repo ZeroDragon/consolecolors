@@ -1,10 +1,10 @@
 {
   "name": "consolecolors",
-  "version": "0.0.1",
+  "version": "0.33.2b",
   "description": "Console Colors it's a very small script (30 lines) that adds colors to the node console.log extending the string prototype.",
-  "main": "consolecolors.js",
+  "main": "bin/consolecolors.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test/consolecolors.js"
   },
   "repository": {
     "type": "git",
